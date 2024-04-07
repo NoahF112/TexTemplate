@@ -1,0 +1,31 @@
+\documentclass[12pt, a4paper, twoside]{book}
+
+%enable chinese typesetting
+% \documentclass[UTF8]{ctexart}
+
+% -------------------
+%enable include graphics
+\usepackage{graphicx}
+
+%enable set page geometry
+\usepackage{geometry}
+
+%enable hyperlink
+\usepackage{hyperref}
+
+%enable german font support
+\usepackage[german,english]{babel}
+
+%enable font setting
+\usepackage{fontspec}
+% \setmainfont{Arial}
+\setmainfont{Times New Roman}
+
+
+\begin{document}
+  \include{content/test}
+  
+  \begin{figure}
+    \includegraphics{content/test.png}
+  \end{figure}
+\end{document}
